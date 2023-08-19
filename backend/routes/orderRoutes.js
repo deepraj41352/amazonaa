@@ -1,5 +1,5 @@
 import express from 'express';
-import { isAuth, isAdmin, mailgun, payOrderEmailTemplate } from '../util.js';
+import { isAuth, isAdmin } from '../util.js';
 import expressAsyncHandler from 'express-async-handler';
 import Order from '../Models/OrderModel.js';
 import User from '../Models/userModel.js';
